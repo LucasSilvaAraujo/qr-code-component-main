@@ -1,0 +1,51 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+
+.qr-code-component-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.qr-code-component-main .qr-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+    width: 320px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.qr-code-component-main .qr-code .qr-code-image img {
+    width: 290px;
+    border-radius: 10px;
+}
+
+.qr-code-component-main .qr-code .container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.qr-code-component-main .qr-code .container-text .title {
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-code-component-main .qr-code .container-text .paragraph {
+    color: hsl(220, 15%, 55%);
+    width: 250px;
+}
+
+.rodape {
+    font-size: 16px;
+    text-align: center;
+}
